@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint">Nuevo Elemento</string>
+    <string name="boton">Intro</string>
+    <string name="app_name">ListaTonta1</string>
+</resources>

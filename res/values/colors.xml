@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo_layout_principal">#55009999</color>
+    <color name="fondo_layout_secundario">#55009900</color>
+    
+</resources>

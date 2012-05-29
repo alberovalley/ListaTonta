@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fondo_layout_principal"
+    >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/fondo_layout_secundario"
+	    android:weightSum="1"
+	    android:padding="5dp"
+	    >
+		<EditText android:id="@+id/entrada"
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:hint="@string/hint"
+	    	android:layout_weight="0.3"
+		/>
+		<Button android:id="@+id/boton"
+			android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/boton"
+	    	android:layout_weight="0.7"
+		/>
+	</LinearLayout>
+	<ListView android:id="@+id/lista"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+	/>
+</LinearLayout>
